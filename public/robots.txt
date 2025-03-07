@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://beye-vision.vercel.app/sitemap.xml
