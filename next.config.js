@@ -13,15 +13,16 @@ const nextConfig = {
             },
         ],
     },
-    async redirects() {
-        return [
-            {
-                source: '/',
-                destination: '/zh',
-                permanent: false,
-            },
-        ];
-    },
+    // 移除重定向配置，因为已在页面组件中处理
+    // async redirects() {
+    //     return [
+    //         {
+    //             source: '/',
+    //             destination: '/zh',
+    //             permanent: false,
+    //         },
+    //     ];
+    // },
 };
 
 module.exports = nextConfig;
